@@ -76,6 +76,15 @@ p{
         align-content: center;
       }
 
-                
+      img {
+        max-width: 300%;
+        max-height: 300%;
+        object-fit: contain;
+       }
+        .col-sm-12{
+            height: 250px;
+            width: 250px;  
+            }               
+
 
             
