@@ -6,10 +6,13 @@ body {
     line-height: 150%;
     color: rgb(36, 35, 35);
     background: #d1d4d4;
-    width: auto;
-    min-width: 600 px;
-    max-width: 2000 px;
+    position:relative;
+    width: 100%;
 }
+
+   
+        
+
 
 h1{
     padding: 20px 0;
@@ -61,4 +64,33 @@ p{
         color: rgb(26, 27, 27);
         text-align: left;
         font-family: Georgia, "Times New Roman", Times, serif;
-    }
+}
+
+    .jumbotron{
+        padding: 10px;
+        background: white;
+        margin-top:50px;
+        margin-left:5px;
+        margin-right:5px;
+        margin-bottom:20px;
+        align-content: center;
+      }
+
+      img {
+        max-width: 300%;
+        max-height: 300%;
+        object-fit: contain;
+       }
+        .col-sm-12{
+            height: 250px;
+            width: 250px;  
+            }               
+
+* {
+    padding:0;
+     margin:0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+            
